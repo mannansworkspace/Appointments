@@ -1,0 +1,44 @@
+
+  #t01 tbody>tr:nth-child(even) {
+	background-color: white;
+  }
+  #t01 tbody>tr:nth-child(odd) {
+	background-color: #f3f4f6;
+  }
+  #t03 tbody>tr:nth-child(even) {
+    background-color: white;
+    }
+  #t03 tbody>tr:nth-child(odd) {
+    background-color: #f3f4f6;
+    }
+  .table-header-sub{
+    background-color: #f9fafb !important;
+  }
+  .table-header{
+    background-color: #f9fafb !important;
+  }
+  .table-row-main{
+    background-color: lightgrey !important;
+  }
+  .react-tabs__tab--selected{
+    background-color: #e2e2e2;
+    border-radius: 1em;
+  }
+  .view-details-button{
+    color: blue;
+    cursor: pointer;
+     padding-left: 5px;
+    padding-right: 5px;
+  }
+  .edit-details-button{
+    color: yellowgreen;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .delete-details-button{
+    color: red;
+    cursor: pointer;
+     padding-left: 5px;
+    padding-right: 5px;
+  }

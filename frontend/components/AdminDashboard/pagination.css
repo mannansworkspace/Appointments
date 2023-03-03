@@ -1,0 +1,62 @@
+.pagination > li {
+    float: left;
+    margin: 0;
+    border: 1px solid gray;
+    border-right: none;
+    padding: 1px;
+    --tw-text-opacity: 1;
+    color: rgba(107, 114, 128, var(--tw-text-opacity));
+    min-width: 50px;
+    font-size: 12px;
+    padding: 5px 8px;
+}
+
+.pagination > li.previous, .pagination > li.next { 
+    margin: 0 15px;
+    border-radius: 2px;
+    border-right: 1px solid gray;
+}
+
+.pagination > li:nth-last-child(2) {
+    border-radius: 0px 3px 3px 0;
+    border-right: 1px solid gray;
+
+}
+
+.pagination > li:nth-child(2) {
+    border-radius: 3px 0px 0px 3px;
+}
+
+.pagination{
+    margin: 30px auto;
+    height: 40px;
+    float: right;
+}
+
+.previous{
+
+}
+
+.disabled{
+
+}
+
+.active{
+    
+    background-color: #e2e2e2;
+
+}
+
+.break-me{
+
+}
+
+.next{
+
+}
+
+@media (max-width:1350px) {
+    .fix{
+        right:10px;
+    }
+}
